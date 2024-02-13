@@ -13,12 +13,15 @@ Takenverdeling:
 Celine
 pixel art
 Tekening van layout 
+Powerpoint
 
 Romy
 Pixel art
+Character
 
 Axel
 Enemies
+Sound
 
 Naël
-
+Code?
