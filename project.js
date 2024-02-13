@@ -37,8 +37,7 @@ class App
     imageBullet.addEventListener("load", (e) => {
       ctx.drawImage(imageBullet, 30, 30);
     });
-
-    let g = canvas.getContext("2d");
+    
     console.log(canvas);
 
     
