@@ -1,32 +1,24 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-    <header>
-        <div class="header">
-            <h1>Header</h1>
-            <p></p>
-        </div>
-        <input id="Mybutton" type="button" value="Music"></input>
-    </header>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="soundtest.js" defer></script>
+    <script type="module" defer src="button.js"></script>
+    <title>BlastGalaxy</title>
+</head>
+<header>
+    <input id="Mybutton" type="button" value="Music"></input>
+    <div class="header">
+        <h1>Header</h1>
+        <p></p>
+    </div>
+</header>
+<body onload="startGame()">
     <a href="https://www.facebook.com/BlastGalaxy/"></a>
     <a href="https://twitter.com/blast_galaxy"></a>
     <img src="BlastGalaxy-D621HUJQ.png" alt="QR code to the BlastGalaxy website" width="100" height="100">
     <a href="https://www.facebook.com/BlastGalaxy/"><img src="facebooklogo.png" alt="facebook logo" width="50" height="50"></a>
     <a href="https://twitter.com/blast_galaxy"><img src="xlogo.avif" alt="X logo" width="50" height="50"></a>
-    <script src="soundtest.js" defer></script>
-    <script type="module" defer src="button.js"></script>
-</head>
-<header>
-    <input id="Mybutton" type="button" value="Music"></input>
-</header>
-<body onload="startGame()">
-    <canvas id="canvas" width="1000" height="1000"></canvas>
-    <div style="display:none;">
-    <img id="source1" src="img/Sprite.png" width="270" height="320">
-    <img id="source2" src="img/Bullet.png" width="310" height="310">
-    </div>
-
 </body>
